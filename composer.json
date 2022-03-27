@@ -1,0 +1,13 @@
+{
+    "name": "nl/color-mixer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Paint\\": "src/Paint/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
